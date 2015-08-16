@@ -36,7 +36,6 @@ public class UserInfoWeb {
 		db.updateUserInfo(user);
 		db.deleteUserInfo(user);
 		
-		
 	}
 
 }
