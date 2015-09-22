@@ -1,0 +1,15 @@
+package logging;
+
+public class LoggerTest {
+
+	public static void main(String[] args) {
+		
+		MyLogger myLogger = MyLogger.getLogger();
+		
+		myLogger.log("test");
+		myLogger.fine("fineTest");
+		myLogger.warning("warningTest");
+
+	}
+
+}
